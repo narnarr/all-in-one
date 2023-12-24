@@ -32,4 +32,12 @@ subprojects {
         annotationProcessor 'org.projectlombok:lombok'
         testImplementation 'org.springframework.boot:spring-boot-starter-test'
     }
+
+    checkstyle {
+        configFile = file("${rootDir}/tools/code-style/google-check-style.xml")
+        toolVersion = "10.12.6"
+
+        showViolations = true
+        maxWarnings = 0
+    }
 }
