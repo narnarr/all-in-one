@@ -1,10 +1,10 @@
-package dev.nars.allinone;
+package dev.nars.oneapi;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class AllInOneApplicationTests {
+class OneApiApplicationTests {
 
     @Test
     void contextLoads() {
